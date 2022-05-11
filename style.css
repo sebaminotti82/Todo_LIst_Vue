@@ -1,0 +1,148 @@
+*{
+    margin: 0; padding: 0 ; box-sizing: border-box;
+}
+
+.row{
+
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: gold;
+    margin: 50px auto;
+    position: relative;
+    
+
+}
+#elimina{
+    bottom: 2%;
+    width: 200px;
+    height: 40px;
+    background-color:rgb(38, 38, 185);
+    color: gold;
+    line-height: 40px;
+    font-size: 0.9em;
+    text-align: center;
+    margin-left: 1%;
+    
+}
+
+#title{
+    width: 100%;
+    height: 5vh;
+    background-color:rgb(38, 38, 185);
+    margin: 10px auto;
+    color: gold;
+    
+}
+#title h1{
+    font-size: 1.5em;
+    line-height: 5vh;
+    margin-left: 10px;
+}
+
+.box{
+    
+    height: 40vh;
+    background-color:rgb(38, 38, 185);
+    margin-top: 10px;
+    border: 1px solid rgb(169, 197, 245);
+    
+}
+.box h5{
+    color: gold;
+}
+.list{
+    position: relative;
+
+}
+
+.containerList{
+    width: 100%;
+    height: 30vh;
+    margin: 10px 0;
+   
+    overflow: auto;
+}
+
+
+
+.containerList li{
+    position: relative;
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+    list-style: none;
+    color: gold;
+    
+}
+.containerList i{
+    cursor: pointer;
+}
+.containerList li:hover{
+    background-color: aliceblue;
+    transition: 1.5s;
+    color: rgb(45, 45, 85);
+}
+#no{
+    position: absolute;
+    right: 2%;
+    margin-top: 4px;
+    color: red;
+}
+#si{
+    position: absolute;
+    right: 15%;
+    margin-top: 4px;
+    color: green;
+}
+
+::-webkit-scrollbar{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 0.3em;
+    border-radius: 10px;
+    
+}
+::-webkit-scrollbar-thumb{
+    min-height:0.6em;
+    min-width:0.3em;
+    background-color: gold;
+    border: none;
+}
+.containerComand{
+    position: relative;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 5vh;
+    bottom: 0;
+     background-color: rgb(38, 38, 185);
+     font-size: 0.9em;
+}
+.containerComand input{
+    position: absolute;
+    height: 3vh; 
+    width: 60%;
+    bottom: 2px;
+    margin-left: 2%;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 0.7em;
+}
+.containerComand button:hover{
+    color: lightgreen;
+    border: none;
+    outline: none;
+}
+button{
+    position: absolute;
+    right: 2%;
+    margin-top: 1vh;
+    padding: 0 7px;
+    bottom: 3px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: gold;
+    color: #3d3d3d;
+}
